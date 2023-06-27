@@ -1,0 +1,331 @@
+body {
+  background-color: #FFEBB4;
+}
+
+/*@media max-width {
+1024, 768
+}*/
+.container {
+  display: block;
+  width: 60%;
+  margin: auto;
+  background-color: #FFBFA9;
+  border: none;
+  border-radius: 4px;
+}
+
+.male, .female {
+  margin: 10%;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+
+}
+
+.name-pair {
+  margin: 10px;
+}
+/*  background-color: #FFACAC;
+}*/
+.you, .partner {
+  margin: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+/*.all {
+  margin: auto;
+  padding: 20px 0 20px 0;
+}*/
+.boxx {
+  margin: 0 20% 20% 20%;
+  padding: 20px;
+  text-align: justify;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Carattere', cursive;
+font-size: 2rem;
+  color: #13005A;
+
+}
+h5 {
+  margin: 1px 200px 1px 200px;
+  width: 50%;
+  padding: 1px 20px;
+  text-align: center;
+  font-size: 1rem;
+font-family: 'Mukta', sans-serif;
+}
+
+/*-mbl - 767*/
+.submit-btn {
+  position: absolute;
+    top:50%;
+    background-color:#5F264A;
+    color: white;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    min-height:30px;
+    min-width: 120px;
+    width: 40%;
+}
+
+.submit-btn:hover {
+  background-color: blue;
+}
+
+.submit-btn:active {
+  background-color: red;
+}
+
+.submit {
+  display: inline-block;
+  text-align: center;
+  /*padding: 20px 20px 5px 20px;*/
+  margin: 40px 30px 5px 40px;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 100px 100px 40px 100px;
+  padding: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* working new css2*/
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 12px;
+  margin: 8px 200px 8px 200px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+text-align: center;
+font-family: 'Carattere', cursive;
+font-size: 1.5rem;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 40%;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 250px 40px 250px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Carattere', cursive;
+font-size: 2rem;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+form {
+  margin: auto;
+}
+
+.first, .second {
+  text-align: center;
+  width: 50%;
+  padding: 12px 12px;
+  margin: 8px 200px 8px 200px;
+font-family: 'Allura', cursive;
+font-size: 1.5rem;
+font-weight:200;
+display: block;
+}
+
+/* for mobile - max upto 767 width*/
+@media only screen and (min-width: 376px) and (max-width: 767px) {
+
+  /*body {
+    background-color: white;
+  }*/
+
+  .heading {
+    margin: 60px 70px 40px 70px;
+  }
+ .mobile {
+   display: block;
+   width: 80%;
+   margin: 40px 40px 60px 40px;
+   background-color: #FFBFA9;
+   border: none;
+   border-radius: 4px;
+ }
+
+ .first, .second {
+   text-align: center;
+   width: 50%;
+   padding: 12px 12px;
+   margin: 8px 80px 8px 80px;
+ font-family: 'Allura', cursive;
+ font-size: 2rem;
+ font-weight:400;
+ display: block;
+ }
+
+ input[type=text] {
+   width: 60%;
+   padding: 12px 12px;
+   margin: 8px 80px 8px 60px;
+   display: block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ text-align: center;
+ font-family: 'Carattere', cursive;
+ font-size: 1.5rem;
+ }
+
+ input[type=submit] {
+   width: 40%;
+   background-color: #04AA6D;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 100px 40px 100px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   text-align: center;
+   font-family: 'Carattere', cursive;
+   font-size: 2rem;
+ }
+
+ /* Add a background color to the submit button on mouse-over */
+ input[type=submit]:hover {
+   background-color: #45a049;
+ }
+
+ #youcheck, #partnercheck {
+   margin: 5px 60px 5px 60px;
+   font-family: cursive;
+   font-weight: normal;
+ }
+}
+
+
+/*for tab with min 768 to 1023 px width */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /*body {
+    background-color: white;
+  }*/
+  .first, .second {
+    text-align: center;
+    width: 50%;
+    padding: 12px 12px;
+    margin: 8px 80px 8px 100px;
+  font-family: 'Allura', cursive;
+  font-size: 2rem;
+  font-weight:400;
+  display: block;
+  }
+
+  .tab {
+    display: block;
+    width: 60%;
+    margin: 40px 100px 60px 150px;
+    background-color: #FFBFA9;
+    border: none;
+    border-radius: 4px;
+  }
+  /*.heading {
+    margin: 60px 70px 60px 70px;
+  }*/
+  input[type=text] {
+    width: 60%;
+    padding: 12px 12px;
+    margin: 8px 80px 8px 80px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  text-align: center;
+  font-family: 'Carattere', cursive;
+  font-size: 1.5rem;
+  }
+
+  input[type=submit] {
+    width: 60%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 12px;
+    margin: 8px 80px 40px 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Carattere', cursive;
+    font-size: 2rem;
+  }
+
+  #youcheck, #partnercheck {
+    margin: 5px 60px 5px 100px;
+    font-family: cursive;
+    font-weight: normal;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width:375px) {
+  body {
+    background-color: white;
+  }
+
+  .first, .second {
+    width: 50%;
+    padding: 12px 12px;
+    margin: 8px 40px 8px 40px;
+  font-family: 'Allura', cursive;
+  font-size: 2rem;
+  font-weight:400;
+  display: block;
+  }
+
+  input[type=text] {
+    width: 60%;
+    padding: 12px 12px;
+    margin: 8px 30px 8px 30px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  text-align: center;
+  font-family: 'Carattere', cursive;
+  font-size: 1rem;
+  }
+
+  input[type=submit] {
+    width: 60%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 12px;
+    margin: 8px 40px 8px 45px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Carattere', cursive;
+    font-size: 2rem;
+  }
+  #youcheck, #partnercheck {
+    margin: 5px 30px 5px 30px;
+    font-family: cursive;
+    font-weight: normal;
+  }
+}
