@@ -183,10 +183,13 @@ display: block;
  display: block;
  }
 
+ .second {
+   margin-top: 0;
+ }
  input[type=text] {
    width: 60%;
    padding: 12px 12px;
-   margin: 8px 80px 8px 60px;
+   margin: 8px 80px 0 60px;
    display: block;
    border: 1px solid #ccc;
    border-radius: 4px;
@@ -239,6 +242,10 @@ display: block;
   display: block;
   }
 
+  .second {
+    margin-top: 0;
+  }
+
   .tab {
     display: block;
     width: 60%;
@@ -253,7 +260,7 @@ display: block;
   input[type=text] {
     width: 60%;
     padding: 12px 12px;
-    margin: 8px 80px 8px 80px;
+    margin: 8px 80px 0 80px;
     display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -283,49 +290,141 @@ display: block;
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width:375px) {
-  body {
+@media only screen and  (max-width: 375px) {
+
+  /*body {
     background-color: white;
-  }
+  }*/
 
-  .first, .second {
-    width: 50%;
-    padding: 12px 12px;
-    margin: 8px 40px 8px 40px;
-  font-family: 'Allura', cursive;
-  font-size: 2rem;
-  font-weight:400;
-  display: block;
+  .heading {
+    margin: 60px 45px 40px 45px;
   }
+ .mobile {
+   display: block;
+   width: 80%;
+   margin: 40px 40px 60px 40px;
+   background-color: #FFBFA9;
+   border: none;
+   border-radius: 4px;
+ }
 
-  input[type=text] {
-    width: 60%;
-    padding: 12px 12px;
-    margin: 8px 30px 8px 30px;
-    display: block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  text-align: center;
-  font-family: 'Carattere', cursive;
-  font-size: 1rem;
-  }
+ .first, .second {
+   text-align: center;
+   width: 80%;
+   padding: 12px 12px;
+   margin: 8px 45px 8px 20px;
+ font-family: 'Allura', cursive;
+ font-size: 2rem;
+ font-weight:400;
+ display: block;
+ }
+ .second {
+   margin-top: 0;
+ }
+ input[type=text] {
+   width:60%;
+   padding: 12px 12px;
+   margin: 8px 45px 0 45px;
+   display: block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ text-align: center;
+ font-family: 'Carattere', cursive;
+ font-size: 1.5rem;
+ }
 
-  input[type=submit] {
-    width: 60%;
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 12px;
-    margin: 8px 40px 8px 45px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-align: center;
-    font-family: 'Carattere', cursive;
-    font-size: 2rem;
+ input[type=submit] {
+   width: 40%;
+   background-color: #04AA6D;
+   color: white;
+   padding: 10px 20px;
+   margin: 8px 85px 40px 85px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   text-align: center;
+   font-family: 'Carattere', cursive;
+   font-size: 2rem;
+ }
+
+ /* Add a background color to the submit button on mouse-over */
+ input[type=submit]:hover {
+   background-color: #45a049;
+ }
+
+ #youcheck, #partnercheck {
+   margin: 5px 60px 5px 60px;
+   font-family: cursive;
+   font-weight: normal;
+ }
+}
+
+@media only screen and  (max-width: 320px) {
+
+  /*body {
+    background-color: white;
+  }*/
+
+  .heading {
+    margin: 60px 45px 40px 30px;
   }
-  #youcheck, #partnercheck {
-    margin: 5px 30px 5px 30px;
-    font-family: cursive;
-    font-weight: normal;
-  }
+ .mobile {
+   display: block;
+   width: 80%;
+   margin: 40px 40px 60px 40px;
+   background-color: #FFBFA9;
+   border: none;
+   border-radius: 4px;
+ }
+
+ .first, .second {
+   text-align: center;
+   width: 80%;
+   padding: 12px 12px;
+   margin: 8px 15px 8px 10px;
+ font-family: 'Allura', cursive;
+ font-size: 2rem;
+ font-weight:400;
+ display: block;
+ }
+
+ .second {
+   margin-top: 0;
+ }
+ input[type=text] {
+   width:60%;
+   padding: 12px 12px;
+   margin: 8px 10px 0 35px;
+   display: block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ text-align: center;
+ font-family: 'Carattere', cursive;
+ font-size: 1.5rem;
+ }
+
+ input[type=submit] {
+   width:60%;
+   background-color: #04AA6D;
+   color: white;
+   padding: 10px 20px;
+   margin: 8px 45px 40px 50px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   text-align: center;
+   font-family: 'Carattere', cursive;
+   font-size: 2rem;
+ }
+
+ /* Add a background color to the submit button on mouse-over */
+ input[type=submit]:hover {
+   background-color: #45a049;
+ }
+
+ #youcheck, #partnercheck {
+   margin: 5px 60px 5px 30px;
+   font-family: cursive;
+   font-weight: normal;
+ }
 }
