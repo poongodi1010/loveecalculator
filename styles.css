@@ -368,10 +368,10 @@ display: block;
   .heading {
     margin: 60px 45px 40px 30px;
   }
- .mobile {
+ .smalll {
    display: block;
    width: 80%;
-   margin: 40px 40px 60px 40px;
+   margin: 40px 35px 60px 35px;
    background-color: #FFBFA9;
    border: none;
    border-radius: 4px;
