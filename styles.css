@@ -176,7 +176,7 @@ display: block;
    text-align: center;
    width: 50%;
    padding: 12px 12px;
-   margin: 8px 80px 8px 80px;
+   margin: 8px 80px 8px 70px;
  font-family: 'Allura', cursive;
  font-size: 2rem;
  font-weight:400;
@@ -189,7 +189,7 @@ display: block;
  input[type=text] {
    width: 60%;
    padding: 12px 12px;
-   margin: 8px 80px 0 60px;
+   margin: 8px 80px 0 50px;
    display: block;
    border: 1px solid #ccc;
    border-radius: 4px;
