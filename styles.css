@@ -228,9 +228,7 @@ display: block;
  }
 
  #youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+margin: 5px 60px 5px 60px;
    font-family: 'Allura', cursive;
    font-size: 2rem;
    font-weight:400;
@@ -297,9 +295,7 @@ display: block;
   }
 
   #youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 5px 60px 5px 60px;
     font-family: 'Allura', cursive;
     font-size: 2rem;
     font-weight:400;
@@ -369,9 +365,7 @@ display: block;
  }
 
  #youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  margin: 5px 60px 5px 60px;
    font-family: 'Allura', cursive;
    font-size: 1.5rem;
    font-weight:400;
@@ -442,9 +436,7 @@ display: block;
  }
 
  #youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+margin: 5px 60px 5px 60px;
    font-family: 'Allura', cursive;
    font-size: 1.5rem;
    font-weight:400;
