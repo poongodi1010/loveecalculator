@@ -3,7 +3,7 @@
   }
 
   /*@media max-width {
-  1024, 768,767
+  1024, 768
   }*/
   .container {
     display: block;
@@ -140,7 +140,9 @@
   }
   form {
     margin: auto;
+
   }
+
 
   .first, .second {
     text-align: center;
@@ -172,6 +174,7 @@
 
     .heading {
       margin: 60px 70px 40px 70px;
+      text-align: center;
     }
    .mobile {
      display: block;
@@ -196,10 +199,14 @@
    .second {
      margin-top: 0;
    }
+
+   form {
+       padding: 4px;
+   }
    input[type=text] {
      width: 60%;
      padding: 12px 12px;
-     margin: 8px 80px 0 50px;
+      margin: 8px 80px 0 50px;
      display: block;
      border: 1px solid #ccc;
      border-radius: 4px;
