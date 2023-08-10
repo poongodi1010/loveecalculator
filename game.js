@@ -45,10 +45,16 @@ function percent() {
 
     if (loveNum >= 50) {
       var loveMsg = document.getElementById("forum");
-      loveMsg.innerHTML = "💕Your love percentage is " + loveNum + "%" + " 🤗" + "<br/>" + "\nYou both are like \n Tom and Jerry even though you fight many times you wont be apart😍" + "<br>" + "Cheers..!!!❤❤❤";
+      loveMsg.innerHTML = `💕Your love percentage is ${loveNum}%  🤗
+      You both are like 
+      Tom and Jerry even though you fight many times you wont be apart😍
+      Cheers..!!!❤❤❤`;
 
     } else if (loveNum <= 50) {
-      document.getElementById("forum").innerHTML = "❣Your love percentage is " + loveNum + "%" + " 🤗" + "<br/>" + "\nYou both are like \n bread and Jam and you both are inseparable🥰" + "<br>" + "Cheers..!!!❤❤❤";
+      document.getElementById("forum").innerHTML = `❣Your love percentage is ${loveNum}% 🤗 
+      You both are like 
+      bread and Jam and you both are inseparable🥰
+      Cheers..!!!❤❤❤`;
     }
   }
 }
