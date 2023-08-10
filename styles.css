@@ -1,277 +1,116 @@
-body {
-  background-color: #FFEBB4;
-}
+  body {
+    background-color: #FFEBB4;
+  }
 
-/*@media max-width {
-1024, 768
-}*/
-.container {
-  display: block;
-  width: 60%;
-  margin: auto;
-  background-color: #FFBFA9;
-  border: none;
-  border-radius: 4px;
-}
-
-.male, .female {
-  margin: 10%;
-  display: inline-block;
-  height: 100px;
-  width: 200px;
-
-}
-
-.name-pair {
-  margin: 10px;
-}
-/*  background-color: #FFACAC;
-}*/
-.you, .partner {
-  margin: 5px;
-  text-align: center;
-  font-size: 1.5rem;
-}
-/*.all {
-  margin: auto;
-  padding: 20px 0 20px 0;
-}*/
-.boxx {
-  margin: 0 20% 20% 20%;
-  padding: 20px;
-  text-align: justify;
-  border: none;
-  border-radius: 10px;
-  font-family: 'Carattere', cursive;
-font-size: 2rem;
-  color: #13005A;
-
-}
-h5 {
-  margin: 1px 200px 1px 200px;
-  width: 50%;
-  padding: 1px 20px;
-  text-align: center;
-  font-size: 1rem;
-font-family: 'Mukta', sans-serif;
-}
-
-/*-mbl - 767*/
-.submit-btn {
-  position: absolute;
-    top:50%;
-    background-color:#5F264A;
-    color: white;
-    border:none;
-    border-radius:10px;
-    padding:15px;
-    min-height:30px;
-    min-width: 120px;
-    width: 40%;
-}
-
-.submit-btn:hover {
-  background-color: blue;
-}
-
-.submit-btn:active {
-  background-color: red;
-}
-
-.submit {
-  display: inline-block;
-  text-align: center;
-  /*padding: 20px 20px 5px 20px;*/
-  margin: 40px 30px 5px 40px;
-}
-h1 {
-  text-align: center;
-  font-size: 3rem;
-  margin: 100px 100px 40px 100px;
-  padding: 10px;
-  font-family: 'Dancing Script', cursive;
-  font-weight: bold;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-/* working new css2*/
-
-input[type=text] {
-  width: 50%;
-  padding: 12px 12px;
-  margin: 8px 200px 8px 200px;
-  display: block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-text-align: center;
-font-family: 'Carattere', cursive;
-font-size: 1.5rem;
-}
-
-/* Style the submit button */
-input[type=submit] {
-  width: 40%;
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 250px 40px 250px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  text-align: center;
-  font-family: 'Carattere', cursive;
-font-size: 2rem;
-}
-
-/* Add a background color to the submit button on mouse-over */
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-form {
-  margin: auto;
-}
-
-.first, .second {
-  text-align: center;
-  width: 50%;
-  padding: 12px 12px;
-  margin: 8px 200px 8px 200px;
-font-family: 'Allura', cursive;
-font-size: 1.5rem;
-font-weight:200;
-display: block;
-}
-
-#youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
- /*margin: 5px 60px 5px 60px;*/
-  font-family: 'Allura', cursive;
-  font-size: 1.8rem;
-  font-weight:400;
-}
-
-/* for mobile - max upto 767 width*/
-@media only screen and (min-width: 376px) and (max-width: 767px) {
-
-  /*body {
-    background-color: white;
+  /*@media max-width {
+  1024, 768
   }*/
-
-  .heading {
-    margin: 60px 70px 40px 70px;
-  }
- .mobile {
-   display: block;
-   width: 80%;
-   margin: 40px 40px 60px 40px;
-   background-color: #FFBFA9;
-   border: none;
-   border-radius: 4px;
- }
-
- .first, .second {
-   text-align: center;
-   width: 50%;
-   padding: 12px 12px;
-   margin: 8px 80px 8px 70px;
- font-family: 'Allura', cursive;
- font-size: 2rem;
- font-weight:400;
- display: block;
- }
-
- .second {
-   margin-top: 0;
- }
- input[type=text] {
-   width: 60%;
-   padding: 12px 12px;
-   margin: 8px 80px 0 50px;
-   display: block;
-   border: 1px solid #ccc;
-   border-radius: 4px;
- text-align: center;
- font-family: 'Carattere', cursive;
- font-size: 1.5rem;
- }
-
- input[type=submit] {
-   width: 40%;
-   background-color: #04AA6D;
-   color: white;
-   padding: 14px 20px;
-   margin: 8px 100px 40px 100px;
-   border: none;
-   border-radius: 4px;
-   cursor: pointer;
-   text-align: center;
-   font-family: 'Carattere', cursive;
-   font-size: 2rem;
- }
-
- /* Add a background color to the submit button on mouse-over */
- input[type=submit]:hover {
-   background-color: #45a049;
- }
-
- #youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
-margin: 5px 60px 5px 60px;
-   font-family: 'Allura', cursive;
-   font-size: 2rem;
-   font-weight:400;
- }
-}
-
-
-/*for tab with min 768 to 1023 px width */
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /*body {
-    background-color: white;
-  }*/
-  .first, .second {
-    text-align: center;
-    width: 50%;
-    padding: 12px 12px;
-    margin: 8px 80px 8px 100px;
-  font-family: 'Allura', cursive;
-  font-size: 2rem;
-  font-weight:400;
-  display: block;
-  }
-
-  .second {
-    margin-top: 0;
-  }
-
-  .tab {
+  .container {
     display: block;
     width: 60%;
-    margin: 40px 100px 60px 150px;
+    margin: auto;
     background-color: #FFBFA9;
     border: none;
     border-radius: 4px;
   }
-  /*.heading {
-    margin: 60px 70px 60px 70px;
+
+  .male, .female {
+    margin: 10%;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+
+  }
+
+  .name-pair {
+    margin: 10px;
+  }
+  /*  background-color: #FFACAC;
   }*/
+  .you, .partner {
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  /*.all {
+    margin: auto;
+    padding: 20px 0 20px 0;
+  }*/
+  .boxx {
+    margin: 0 20% 20% 20%;
+    padding: 20px;
+    text-align: justify;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Carattere', cursive;
+  font-size: 2rem;
+    color: #13005A;
+
+  }
+  h5 {
+    margin: 1px 200px 1px 200px;
+    width: 50%;
+    padding: 1px 20px;
+    text-align: center;
+    font-size: 1rem;
+  font-family: 'Mukta', sans-serif;
+  }
+
+  /*-mbl - 767*/
+  .submit-btn {
+    position: absolute;
+      top:50%;
+      background-color:#5F264A;
+      color: white;
+      border:none;
+      border-radius:10px;
+      padding:15px;
+      min-height:30px;
+      min-width: 120px;
+      width: 40%;
+  }
+
+  .submit-btn:hover {
+    background-color: blue;
+  }
+
+  .submit-btn:active {
+    background-color: red;
+  }
+
+  .submit {
+    display: inline-block;
+    text-align: center;
+    /*padding: 20px 20px 5px 20px;*/
+    margin: 40px 30px 5px 40px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 100px 100px 40px 100px;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* working new css2*/
+
   input[type=text] {
-    width: 60%;
+    width: 50%;
     padding: 12px 12px;
-    margin: 8px 80px 0 80px;
+    margin: 8px 200px 8px 200px;
     display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -280,165 +119,327 @@ margin: 5px 60px 5px 60px;
   font-size: 1.5rem;
   }
 
+  /* Style the submit button */
   input[type=submit] {
-    width: 60%;
+    width: 40%;
     background-color: #04AA6D;
     color: white;
-    padding: 12px 12px;
-    margin: 8px 80px 40px 100px;
+    padding: 14px 20px;
+    margin: 8px 250px 40px 250px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
     font-family: 'Carattere', cursive;
-    font-size: 2rem;
+  font-size: 2rem;
+  }
+
+  /* Add a background color to the submit button on mouse-over */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  form {
+    margin: auto;
+  }
+
+  .first, .second {
+    text-align: center;
+    width: 50%;
+    padding: 12px 12px;
+    margin: 8px 200px 8px 200px;
+  font-family: 'Allura', cursive;
+  font-size: 1.5rem;
+  font-weight:200;
+  display: block;
   }
 
   #youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
-    margin: 5px 60px 5px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /*margin: 5px 60px 5px 60px;*/
+    font-family: 'Allura', cursive;
+    font-size: 1.8rem;
+    font-weight:400;
+  }
+
+  /* for mobile - max upto 767 width*/
+  @media only screen and (min-width: 376px) and (max-width: 767px) {
+
+    /*body {
+      background-color: white;
+    }*/
+
+    .heading {
+      margin: 60px 70px 40px 70px;
+    }
+   .mobile {
+     display: block;
+     width: 80%;
+     margin: 40px 40px 60px 40px;
+     background-color: #FFBFA9;
+     border: none;
+     border-radius: 4px;
+   }
+
+   .first, .second {
+     text-align: center;
+     width: 50%;
+     padding: 12px 12px;
+     margin: 8px 80px 8px 70px;
+   font-family: 'Allura', cursive;
+   font-size: 2rem;
+   font-weight:400;
+   display: block;
+   }
+
+   .second {
+     margin-top: 0;
+   }
+   input[type=text] {
+     width: 60%;
+     padding: 12px 12px;
+     margin: 8px 80px 0 50px;
+     display: block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+   text-align: center;
+   font-family: 'Carattere', cursive;
+   font-size: 1.5rem;
+   }
+
+   input[type=submit] {
+     width: 40%;
+     background-color: #04AA6D;
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 100px 40px 100px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     text-align: center;
+     font-family: 'Carattere', cursive;
+     font-size: 2rem;
+   }
+
+   /* Add a background color to the submit button on mouse-over */
+   input[type=submit]:hover {
+     background-color: #45a049;
+   }
+
+   #youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
+margin: 5px 60px 5px 60px;
+     font-family: 'Allura', cursive;
+     font-size: 1.5rem;
+     font-weight:400;
+   }
+  }
+
+
+  /*for tab with min 768 to 1023 px width */
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /*body {
+      background-color: white;
+    }*/
+    .first, .second {
+      text-align: center;
+      width: 50%;
+      padding: 12px 12px;
+      margin: 8px 80px 8px 100px;
     font-family: 'Allura', cursive;
     font-size: 2rem;
     font-weight:400;
+    display: block;
+    }
+
+    .second {
+      margin-top: 0;
+    }
+
+    .tab {
+      display: block;
+      width: 60%;
+      margin: 40px 100px 60px 150px;
+      background-color: #FFBFA9;
+      border: none;
+      border-radius: 4px;
+    }
+    /*.heading {
+      margin: 60px 70px 60px 70px;
+    }*/
+    input[type=text] {
+      width: 60%;
+      padding: 12px 12px;
+      margin: 8px 80px 0 80px;
+      display: block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    text-align: center;
+    font-family: 'Carattere', cursive;
+    font-size: 1.5rem;
+    }
+
+    input[type=submit] {
+      width: 60%;
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 12px;
+      margin: 8px 80px 40px 100px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+      font-family: 'Carattere', cursive;
+      font-size: 2rem;
+    }
+
+    #youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
+      margin: 5px 60px 5px 90px;
+      font-family: 'Allura', cursive;
+      font-size: 1.5rem;
+      font-weight:400;
+    }
   }
-}
 
-@media only screen and  (max-width: 375px) {
+  @media only screen and  (max-width: 375px) {
 
-  /*body {
-    background-color: white;
-  }*/
+    /*body {
+      background-color: white;
+    }*/
 
-  .heading {
-    margin: 60px 45px 40px 45px;
-  }
- .mobile {
+    .heading {
+      margin: 60px 45px 40px 45px;
+    }
+   .mobile {
+     display: block;
+     width: 80%;
+     margin: 40px 40px 60px 40px;
+     background-color: #FFBFA9;
+     border: none;
+     border-radius: 4px;
+   }
+
+   .first, .second {
+     text-align: center;
+     width: 80%;
+     padding: 12px 12px;
+     margin: 8px 45px 8px 20px;
+   font-family: 'Allura', cursive;
+   font-size: 2rem;
+   font-weight:400;
    display: block;
-   width: 80%;
-   margin: 40px 40px 60px 40px;
-   background-color: #FFBFA9;
-   border: none;
-   border-radius: 4px;
- }
-
- .first, .second {
-   text-align: center;
-   width: 80%;
-   padding: 12px 12px;
-   margin: 8px 45px 8px 20px;
- font-family: 'Allura', cursive;
- font-size: 2rem;
- font-weight:400;
- display: block;
- }
- .second {
-   margin-top: 0;
- }
- input[type=text] {
-   width:60%;
-   padding: 12px 12px;
-   margin: 8px 45px 0 45px;
-   display: block;
-   border: 1px solid #ccc;
-   border-radius: 4px;
- text-align: center;
- font-family: 'Carattere', cursive;
- font-size: 1.5rem;
- }
-
- input[type=submit] {
-   width: 40%;
-   background-color: #04AA6D;
-   color: white;
-   padding: 10px 20px;
-   margin: 8px 85px 40px 85px;
-   border: none;
-   border-radius: 4px;
-   cursor: pointer;
+   }
+   .second {
+     margin-top: 0;
+   }
+   input[type=text] {
+     width:60%;
+     padding: 12px 12px;
+     margin: 8px 45px 0 45px;
+     display: block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
    text-align: center;
    font-family: 'Carattere', cursive;
-   font-size: 2rem;
- }
-
- /* Add a background color to the submit button on mouse-over */
- input[type=submit]:hover {
-   background-color: #45a049;
- }
-
- #youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
-  margin: 5px 60px 5px 60px;
-   font-family: 'Allura', cursive;
    font-size: 1.5rem;
-   font-weight:400;
- }
-}
+   }
 
-@media only screen and  (max-width: 320px) {
+   input[type=submit] {
+     width: 40%;
+     background-color: #04AA6D;
+     color: white;
+     padding: 10px 20px;
+     margin: 8px 85px 40px 85px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     text-align: center;
+     font-family: 'Carattere', cursive;
+     font-size: 2rem;
+   }
 
-  /*body {
-    background-color: white;
-  }*/
+   /* Add a background color to the submit button on mouse-over */
+   input[type=submit]:hover {
+     background-color: #45a049;
+   }
 
-  .heading {
-    margin: 60px 45px 40px 30px;
+   #youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
+    margin: 5px 60px 5px 45px;
+     font-family: 'Allura', cursive;
+     font-size: 1.5rem;
+     font-weight:400;
+   }
   }
- .smalll {
+
+  @media only screen and  (max-width: 320px) {
+
+    /*body {
+      background-color: white;
+    }*/
+
+    .heading {
+      margin: 60px 45px 40px 30px;
+    }
+   .smalll {
+     display: block;
+     width: 80%;
+     margin: 40px 35px 60px 35px;
+     background-color: #F/FBFA9;
+     border: none;
+     border-radius: 4px;
+   }
+
+   .first, .second {
+     text-align: center;
+     width: 80%;
+     padding: 12px 12px;
+     margin: 8px 15px 8px 10px;
+   font-family: 'Allura', cursive;
+   font-size: 2rem;
+   font-weight:400;
    display: block;
-   width: 80%;
-   margin: 40px 35px 60px 35px;
-   background-color: #F/FBFA9;
-   border: none;
-   border-radius: 4px;
- }
+   }
 
- .first, .second {
-   text-align: center;
-   width: 80%;
-   padding: 12px 12px;
-   margin: 8px 15px 8px 10px;
- font-family: 'Allura', cursive;
- font-size: 2rem;
- font-weight:400;
- display: block;
- }
-
- .second {
-   margin-top: 0;
- }
- input[type=text] {
-   width:60%;
-   padding: 12px 12px;
-   margin: 8px 10px 0 35px;
-   display: block;
-   border: 1px solid #ccc;
-   border-radius: 4px;
- text-align: center;
- font-family: 'Carattere', cursive;
- font-size: 1.5rem;
- }
-
- input[type=submit] {
-   width:60%;
-   background-color: #04AA6D;
-   color: white;
-   padding: 10px 20px;
-   margin: 8px 45px 40px 50px;
-   border: none;
-   border-radius: 4px;
-   cursor: pointer;
+   .second {
+     margin-top: 0;
+   }
+   input[type=text] {
+     width:60%;
+     padding: 12px 12px;
+     margin: 8px 10px 0 35px;
+     display: block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
    text-align: center;
    font-family: 'Carattere', cursive;
-   font-size: 2rem;
- }
-
- /* Add a background color to the submit button on mouse-over */
- input[type=submit]:hover {
-   background-color: #45a049;
- }
-
- #youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
-margin: 5px 60px 5px 60px;
-   font-family: 'Allura', cursive;
    font-size: 1.5rem;
-   font-weight:400;
- }
-}
+   }
+
+   input[type=submit] {
+     width:60%;
+     background-color: #04AA6D;
+     color: white;
+     padding: 10px 20px;
+     margin: 8px 45px 40px 50px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     text-align: center;
+     font-family: 'Carattere', cursive;
+     font-size: 2rem;
+   }
+
+   /* Add a background color to the submit button on mouse-over */
+   input[type=submit]:hover {
+     background-color: #45a049;
+   }
+
+   #youcheck, #partnercheck, #alphacheck1, #alphacheck2 {
+     margin: 5px 60px 5px 30px;
+
+     font-family: 'Allura', cursive;
+     font-size: 1.5rem;
+     font-weight:400;
+   }
+  }
