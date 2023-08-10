@@ -165,6 +165,33 @@
     font-weight:400;
   }
 
+  @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+
+        .heading {
+      
+text-align: center;
+padding: 30px 5px 5px;
+        }
+
+        .lap {
+          display: block;
+          width: 80%;
+          margin: 40px 80px 60px 80px;
+          background-color: #FFBFA9;
+          border: none;
+          border-radius: 4px;
+        }
+        .first, .second {
+          text-align: center;
+          width: 50%;
+          padding: 12px 12px;
+        font-family: 'Allura', cursive;
+        font-size: 2rem;
+        font-weight:400;
+        display: block;
+        }
+}
   /* for mobile - max upto 767 width*/
   @media only screen and (min-width: 376px) and (max-width: 767px) {
 
