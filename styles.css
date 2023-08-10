@@ -173,8 +173,8 @@
     }*/
 
     .heading {
-      margin: 60px 70px 40px 70px;
-      text-align: center;
+      margin: 60px 70px 40px 60px;
+
     }
    .mobile {
      display: block;
@@ -206,7 +206,7 @@
    input[type=text] {
      width: 60%;
      padding: 12px 12px;
-      margin: 8px 80px 0 50px;
+      margin: 8px 80px 0 45px;
      display: block;
      border: 1px solid #ccc;
      border-radius: 4px;
