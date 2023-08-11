@@ -1,9 +1,22 @@
-
 var started = false;
-    document.getElementById("youcheck").style.display = "none";
-    document.getElementById("partnercheck").style.display = "none";
-    document.getElementById("alphacheck1").style.display = "none";
-    document.getElementById("alphacheck2").style.display = "none";
+document.getElementById("youcheck").style.display = "none";
+document.getElementById("partnercheck").style.display = "none";
+
+var alpha = false;
+
+function nospace() {
+  if ((event.keyCode > 64 && event.keyCode < 91) || (event.keyCode > 96 && event.keyCode < 123) || event.keyCode === 32 || event.keyCode === 8) {
+    alpha = true;
+    return true;
+
+  } else {
+    alert("Please enter only alphabets");
+    alpha = false;
+    return false;
+    started = false;
+  }
+}
+
 
 document.getElementById("btn-submit").addEventListener('click', function(event) {
   event.preventDefault();
@@ -11,41 +24,32 @@ document.getElementById("btn-submit").addEventListener('click', function(event) 
 
   var nameValue = document.getElementById("name").value;
   var partnerValue = document.getElementById("mail").value;
-    var letters = /^[A-Za-z]+$/;
 
+  var nameValueTrimmed = nameValue.trim();
+  var partnerValueTrimmed = partnerValue.trim();
 
-  if ((nameValue.length === 0) && (partnerValue.length === 0) ){
+  if ((nameValueTrimmed === '') && (partnerValueTrimmed === '')) {
+    console.log("inside 1");
     document.getElementById("youcheck").style.display = "block";
     document.getElementById("partnercheck").style.display = "block";
     started = false;
-  }
-  else
-   if (((nameValue.length !== 0) && (!nameValue.match(letters)) ) && (partnerValue.length === 0)  ) {
+  } else
+  if ((nameValueTrimmed !== '') && (partnerValueTrimmed === '')) {
     document.getElementById("youcheck").style.display = "none";
-    document.getElementById("alphacheck1").style.display = "block";
     document.getElementById("partnercheck").style.display = "block";
     started = false;
-  }
-else
-  if ((nameValue.length === 0) && ((partnerValue.length !== 0) && (!partnerValue.match(letters)) ) ) {
+  } else
+  if ((nameValueTrimmed === '') && (partnerValueTrimmed !== '')) {
+    console.log("inside 3");
     document.getElementById("youcheck").style.display = "block";
     document.getElementById("partnercheck").style.display = "none";
-      document.getElementById("alphacheck2").style.display = "block";
     started = false;
 
-  }
-
-  else if (((nameValue.length !== 0) && (!nameValue.match(letters)) ) &&  ((partnerValue.length !== 0) && (!partnerValue.match(letters))) )
-   {
-      document.getElementById("youcheck").style.display = "none";
-        document.getElementById("partnercheck").style.display = "none";
-      document.getElementById("alphacheck1").style.display = "block";
-      document.getElementById("alphacheck2").style.display = "block";
-      started = false;
-  }
-    else {
+  } else if (alpha === true) {
     started = true;
-      percent();
+    percent();
+  } else {
+    alert("Please enter characters only...!");
   }
 });
 
